@@ -318,7 +318,7 @@ def RIDEN_FAST_USER(fast):
                 else:
                     Squad["ContactAdd"][fast.param2] = True
                     usr = cl.getContact(op.param2)
-                    cl.sendMessage(fast.param1, "Haii {} " + str(Squad["PesanAdd"]).fromat(usr.displayName))
+                    cl.sendMessage(fast.param1, "Haii {} " + str(Squad["PesanAdd"]).format(usr.displayName))
                     cl.sendMessage(fast.param1, None, contentMetadata={'mid':mid}, contentType=13)
 
         if fast.type == 5:
