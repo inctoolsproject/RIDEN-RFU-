@@ -1332,19 +1332,19 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == "speed":
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 no = time.time()
-                                cl.sendText("uc721ad1f11fb7e128453ba5a27424998", ' ')
+                                cl.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
                                 no1 = time.time()
-                                riden1.sendText("uc721ad1f11fb7e128453ba5a27424998", ' ')
+                                riden1.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
                                 elapsed_time = time.time() - no1
                                 riden1.sendText(kirim, "%s" % (elapsed_time))
                                 no2 = time.time()
-                                riden2.sendText("uc721ad1f11fb7e128453ba5a27424998", ' ')
+                                riden2.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
                                 elapsed_time = time.time() - no2
                                 riden2.sendText(kirim, "%s" % (elapsed_time))
                                 no3 = time.time()
-                                riden3.sendText("uc721ad1f11fb7e128453ba5a27424998", ' ')
+                                riden3.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", ' ')
                                 elapsed_time = time.time() - no3
                                 riden3.sendText(kirim, "%s" % (elapsed_time))
 
