@@ -208,7 +208,7 @@ class Object(object):
             self.log("YOUR MID : " + "( "+self.profile.mid+" )")
             ridenx = "u805e9f30ea4da7b64a14e0f9cea0767c"
             xmod = self.getContact(ridenx).displayName
-            self.sendText("uc721ad1f11fb7e128453ba5a27424998", 'Sorry %s , I use your scrip' % xmod)
+            self.sendText("u805e9f30ea4da7b64a14e0f9cea0767c", 'Sorry %s , I use your scrip' % xmod)
             profile = self.getProfile()
             profile.displayName = "SAYA MEMAKAI SC RFU"
             self.updateProfile(profile)
